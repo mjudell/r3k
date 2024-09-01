@@ -1,0 +1,11 @@
+[project]
+name = "r3k"
+version = "0.0.1"
+dependencies = ["bs4", "lxml", "pandas", "requests", "tqdm"]
+
+[project.scripts]
+r3k = "r3k.cli:main"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"

@@ -10,8 +10,6 @@ import re
 import requests
 import time
 
-import seclist.config as config
-
 
 ISHARES_NCSR_IDX = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000004341&type=N-CSR&dateb=&count=100&scd=filings&search_text="
 
